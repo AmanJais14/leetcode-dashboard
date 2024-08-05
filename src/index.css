@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(26, 26, 26);
+    
+}
+.bgCards {
+    background-color: #282828;
+}
+::selection {
+    color: yellow;
+}
